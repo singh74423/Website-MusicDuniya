@@ -1,0 +1,41 @@
+main{
+    text-align: center;;
+}
+form{
+    background-color: gainsboro;
+    width:50vh;
+    height:30vh;
+    border-radius: 10px;
+    border:2px solid rgb(161, 36, 36);
+    margin:30px auto;
+    padding:20px 30px;
+    
+}
+.label{
+    float:left;
+    color:black;
+    font-weight: 700;
+}
+.admininput{
+    width:70%;
+    font-size:18px;
+    padding:5px;
+    color:black;
+    border-radius:5px;
+}
+.adminsubmit{
+    font-size: 16px;
+    padding:5px;
+    margin:10px;
+    border-radius: 5px;
+    color:black;
+    background-color: rgba(54, 241, 135, 0.789);
+    cursor:pointer;
+}
+.adminsubmit:hover{
+    background-color: aqua;
+}
+.admininput:hover,.admininput:focus{
+    background-color: rgb(182, 237, 131);
+
+}
